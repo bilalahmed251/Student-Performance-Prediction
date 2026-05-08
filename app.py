@@ -137,12 +137,11 @@ def generate_chart(attendance, study_hours, previous_marks, predicted_score):
         plt.close()
         
         return chart_filename
-    
     except Exception as e:
-        print(f"Error generating chart: {e}")
-    import os
+                print(f"Error generating chart: {e}")
+                return None
 
-if __name__ == '__main__':
-        port = int(os.environ.get('PORT', 7860))
-        app.run(debug=False, host='0.0.0.0', port=port)
-    
+        if __name__ == '__main__':
+                port = int(os.environ.get('PORT', 7860))
+                app.run(debug=False, host='0.0.0.0', port=port)
+            
