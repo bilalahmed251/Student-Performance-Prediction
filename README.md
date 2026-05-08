@@ -1,4 +1,4 @@
-# 🎓 Student Performance Prediction & Analytics Suite
+ # 🎓 Student Performance Prediction & Analytics Suite
 
 A comprehensive machine learning system designed to predict student performance (numerical score and pass/fail classification) based on behavioral and academic features. Built with a robust Python/Flask backend and an interactive web interface.
 
